@@ -3,7 +3,7 @@ from random import randint
 
 c_NUMOFPAIRS = 10
 
-###generate initial lists########################
+###generate initial lists#####################
 bolts = []
 for num in range(c_NUMOFPAIRS):
 	newBolt = randint(1,c_NUMOFPAIRS * 10)
@@ -17,7 +17,7 @@ shuffle(bolts)
 
 print ("Original pile of nuts: ", nuts)
 print ("Original pile of bolts: ", bolts)
-#################################################
+##############################################
 
 firstBolt = bolts[0]
 bolts.remove(firstBolt)
